@@ -8,7 +8,7 @@ DB_HOST=mariadb-order
 DB_PORT=3306
 DB_USER=usuariodb
 DB_PASSWORD=clavedb
-DB_NAME=productdb
+DB_NAME=orderdb
 DB_ROOT_PASSWORD=root
 
 ---------------------------------------------------------------------------------------

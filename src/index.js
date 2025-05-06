@@ -8,9 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/order', orderRoutes);
+app.use('/', orderRoutes);
 
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.ORDER_PORT || 3003;
 app.listen(PORT, () => {
     console.log(`Order Service escuchando en el puerto ${PORT}`);
 });
